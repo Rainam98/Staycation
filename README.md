@@ -14,3 +14,8 @@ git fetch
 git checkout -b <Your-branch-name>
 
 
+after making the changes run following commands
+git add <filename-to-add>   || git add -A (if needed to add all the files)
+git commit -m "<Commit Message>"
+git push origin <Your-branch-name>
+
