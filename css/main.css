@@ -5,6 +5,11 @@ body{
 footer{
     font-family: sans-serif;
     color: #4169E1;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
 }
 
 body {
@@ -30,8 +35,9 @@ header{
 }
 
 .carousel{
-    border-radius: 35px;
+    border-radius: 25px;
     overflow: hidden;
+    margin-right: 3%;
 }
 
 .carousel-image{
