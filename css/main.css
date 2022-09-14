@@ -7,9 +7,9 @@ footer{
     color: #4169E1;
 }
 
-body > div{
-    margin-left: 3%;
-    margin-right: 3%;
+body {
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 header{
