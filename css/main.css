@@ -1,0 +1,80 @@
+body{
+    font-family: sans-serif;
+}
+
+footer{
+    font-family: sans-serif;
+    color: #4169E1;
+}
+
+body > div{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+header{
+    padding-top: 1%;
+    padding-right: 3%;
+    z-index: 2;
+    font-size: medium;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+.carousel{
+    border-radius: 35px;
+    overflow: hidden;
+}
+
+.carousel-image{
+    width: 100%;
+}
+
+#carouselExampleFade{
+    justify-content: center;
+    margin-top: 1%;
+    margin-left: 3%;    
+}
+
+.card{
+    padding: 1.5%;
+    color: black;
+}
+
+.card-grid{
+    padding: 1%;
+    box-shadow: 20%;
+    width: 50%;
+}
+
+.card-icon{
+    font-size: 250%;
+}
+
+.card:hover {
+    background-color: #4169E1;
+    color: white;
+    
+}
+
+.card-link{
+    text-decoration: none;
+}
+
+.horizontal-line{
+    width: 95%;
+    color: grey;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 3%;
+    margin-bottom: 1%;
+}
+
