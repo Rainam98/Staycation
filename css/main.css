@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 footer{
@@ -10,11 +12,6 @@ footer{
     bottom: 0;
     width: 100%;
     text-align: center;
-}
-
-body {
-    margin-left: 5%;
-    margin-right: 5%;
 }
 
 header{
