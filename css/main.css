@@ -1,7 +1,7 @@
 body {
-    font-family: sans-serif;
-    margin-left: 5%;
-    margin-right: 5%;
+    font-family: system-ui;
+    margin-left: 2%;
+    margin-right: 2%;
     background-color: #fbfbfb;
 }
 
@@ -48,6 +48,15 @@ header {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23FFFFFF'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+.accordion{
+    margin-left: 3%;
+    margin-right: 2%;
+}
+
+.accordion-button::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ed590f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
 .logo{
     height: 100px;
     width: 100px;
@@ -73,11 +82,6 @@ header {
     justify-content: center;
     margin-top: 1%;
     margin-left: 3%;
-}
-
-.accordion{
-    margin-left: 3%;
-    margin-right: 3%;
 }
 
 .card{
@@ -110,7 +114,7 @@ header {
 
 .horizontal-line {
     width: 95%;
-    color: grey;
+    color: darkgrey;
     margin-left: 3%;
     margin-right: 3%;
     margin-top: 3%;
@@ -170,4 +174,11 @@ header {
 .sidebar a:hover:not(.active) {
     background-color: rgb(237, 89, 15, 0.55);
     color: white;
+}
+
+.popular-property{
+    font-family: cursive;
+    color: #ed590f;
+    margin: auto; 
+    text-align: center;
 }
