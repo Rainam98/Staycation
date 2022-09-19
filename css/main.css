@@ -76,6 +76,11 @@ header {
     color: #ed590f;
 }
 
+.nav-item :hover{
+    color: rgb(247, 127, 7);
+    font-weight: bold;
+}
+
 /* Carousel */
 
 .carousel {
