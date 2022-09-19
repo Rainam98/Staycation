@@ -1,3 +1,5 @@
+/* Main CSS */
+
 body {
     font-family: system-ui;
     margin-left: 2%;
@@ -24,6 +26,8 @@ header {
     font-size: medium;
     font-size: 20px;
 }
+
+/* Accordion */
 
 .btn {
     color: #ed590f;
@@ -60,6 +64,8 @@ header {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ed590f'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
 }
 
+/* Logo and navbar */
+
 .logo {
     height: 100px;
     width: 100px;
@@ -69,6 +75,8 @@ header {
     text-decoration: none;
     color: #ed590f;
 }
+
+/* Carousel */
 
 .carousel {
     border-radius: 15px;
