@@ -16,235 +16,283 @@
     <link rel="stylesheet" href="css/main.css">
 
     <title>The Home Inn</title>
+    <link rel="icon" type="image/jpg" href="/images/favicon.jpg" />
+
+
 </head>
 
 <body>
     <!-- Header Start-->
     <header>
-        <nav class="navbar navbar-inverse">
+        <nav class="navbar custommainnav navbar-inverse">
+
+            <ul class="nav width100 justify-content-end ">
+                <li class="nav-item">
+                    <a class="nav-link active top-nav-text" aria-current="page" href="#"><i
+                            class="bi bi-star-fill"></i><span>
+                            Favourites</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-nav-text" href="#"><i class="bi bi-person-fill"></i><span>
+                            SignUp</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link top-nav-text" href="#"><i class="bi bi-box-arrow-in-right"></i><span>
+                            Login</span></a>
+                </li>
+            </ul>
+
+        </nav>
+
+        <nav class="navbar customnav navbar-expand-lg">
             <div class="container-fluid">
                 <div class="navbar-header">
                     <!-- <a class="navbar-brand" href="#">
                         <img src="./images/logo.jpg" width="100" height="100" class="d-inline-block align-top" alt="">
                     </a> -->
                 </div>
-                <ul class="nav justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link active top-nav-text" aria-current="page" href="#"><i
-                                class="bi bi-star-fill"></i><span>
-                                Favourites</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link top-nav-text" href="#"><i class="bi bi-person-fill"></i><span>
-                                SignUp</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link top-nav-text" href="#"><i class="bi bi-box-arrow-in-right"></i><span>
-                                Login</span></a>
-                    </li>
-                </ul>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span><i class="bi bi-list" style="color: #ed590f;"></i></span>
+                </button>
+                <div class="collapse customdropdown navbar-collapse" id="navbarNavDropdown">
+                    <div class="input-group justify-content-center">
+                        <div class="form-outline">
+                            <input type="search" id="form1" class="form-control" placeholder="Search for Property" />
+                        </div>
+                        <button type="button" class="btn btn-primary">
+                            <i class="bi bi-search"></i>
+                        </button>
+                    </div>
+                    <ul class="navbar-nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Country
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">India</a></li>
+                                <li><a class="dropdown-item" href="#">United States</a></li>
+                                <li><a class="dropdown-item" href="#">United Kingdom</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
         </nav>
     </header>
     <!-- Header End-->
 
 
-    <div class="row">
-        <!-- Side Menu start-->
-        <div class="col-md-2" style="margin-bottom: 20px" ;>
-            <!-- Sidebar -->
-            <div class="sidebar">
-                <a class="bi bi-file-plus-fill card-icon active" href="#home">   Become a host</a>
-                <a class="bi bi-building card-icon" href="#news">   Reservations</a>
-                <a class="bi bi-search card-icon" href="#contact">   Properties</a>
-                <a class="bi bi-chat card-icon" href="#about">   Reviews</a>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Side Menu start-->
+            <div class="col-md-2" style="margin-bottom: 20px" ;>
+
+                <div class="sidebar">
+                    <a class="bi bi-file-plus-fill card-icon active" href="#"> Become a host</a>
+                    <a class="bi bi-building card-icon" href="#"> Reservations</a>
+                    <a class="bi bi-search card-icon" href="#"> Properties</a>
+                    <a class="bi bi-chat card-icon" href="#"> Reviews</a>
+                </div>
+
             </div>
-            <!-- Sidebar -->
-        </div>
-        <!-- Side Menu End-->
+            <!-- Side Menu End-->
 
-        <!-- Main Body-->
-        <div class="col-md-10">
-            <!-- Carousel -->
-            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-interval="3000"
-                data-bs-ride="carousel">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/property2.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
+            <!-- Main Body-->
+            <div class="col-md-10">
+                <!-- Carousel -->
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-interval="3000"
+                    data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/property2.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/property3.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/property4.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/property5.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/property6.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/property7.jpg" class="d-block img-fluid carousel-image"
+                                alt="Sorry! Preview not available right now">
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/property3.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                <!-- Carousel End -->
+
+                <br>
+
+
+                <h1 class="popular-property">Popular Properties</h1>
+                <br>
+
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Sequoia Ridgetop Airbnb with a Private Pool
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <div class="card">
+                                    <img src="images/property2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-10">
+                                                <p class="card-text"><b>Location -</b> Three Rivers, California</p>
+
+                                                <p class="card-text"><b>Rates from -</b> $337 per night.</p>
+                                                <p class="card-text"><b>Accommodates - </b> 8 guests</p>
+
+                                            </div>
+                                            <div class="col-md-2 pt-3">
+
+                                                <a href="#" class="btn">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/property4.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Lake Coeur d’Alene, Idaho
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <div class="card">
+                                    <img src="images/property3.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-10">
+                                                <p class="card-text"><b>Location -</b> Worley, Idaho</p>
+
+                                                <p class="card-text"><b>Rates from -</b> $372 per night.</p>
+                                                <p class="card-text"><b>Accommodates - </b> 10 guests</p>
+
+                                            </div>
+                                            <div class="col-md-2 pt-3">
+
+                                                <a href="#" class="btn">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/property5.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Turgut's Perfect Stay
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <div class="card">
+                                    <img src="images/property4.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-10">
+                                                <p class="card-text"><b>Location -</b> Forney, Texas</p>
+
+                                                <p class="card-text"><b>Rates from -</b> $220 per night.</p>
+                                                <p class="card-text"><b>Accommodates - </b> 4 guests</p>
+
+                                            </div>
+                                            <div class="col-md-2 pt-3">
+
+                                                <a href="#" class="btn">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/property6.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/property7.jpg" class="d-block img-fluid carousel-image"
-                            alt="Sorry! Preview not available right now">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseFour">
+                                Killa Villa
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingFour">
+                            <div class="accordion-body">
+                                <div class="card">
+                                    <img src="images/property5.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <div class="row align-items-center">
+                                            <div class="col-md-10">
+                                                <p class="card-text"><b>Location -</b> Bay Hill Blvd, Orlando</p>
+
+                                                <p class="card-text"><b>Rates from -</b> $826 per night.</p>
+                                                <p class="card-text"><b>Accommodates - </b> 18 guests</p>
+
+                                            </div>
+                                            <div class="col-md-2 pt-3">
+
+                                                <a href="#" class="btn">More Details</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+                <br>
+
+
             </div>
-            <!-- Carousel End -->
 
-            <br>
-
-            
-            <h1 class="popular-property">Popular Properties</h1>
-            <br>
-        
-            <div class="accordion" id="accordionPanelsStayOpenExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                        <button class="accordion-button btn" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                            aria-controls="panelsStayOpen-collapseOne">
-                            Sequoia Ridgetop Airbnb with a Private Pool
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                        aria-labelledby="panelsStayOpen-headingOne">
-                        <div class="accordion-body">
-                            <div class="card">
-                                <img src="images/property2.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-10">
-                                            <p class="card-text"><b>Location -</b> Three Rivers, California</p>
-
-                                            <p class="card-text"><b>Rates from -</b> $337 per night.</p>
-                                            <p class="card-text"><b>Accommodates - </b> 8 guests</p>
-                                            
-                                        </div>
-                                        <div class="col-md-2 pt-3">
-
-                                            <a href="#" class="btn">More Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseTwo">
-                            Lake Coeur d’Alene, Idaho
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingTwo">
-                        <div class="accordion-body">
-                            <div class="card">
-                                <img src="images/property3.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-10">
-                                            <p class="card-text"><b>Location -</b> Worley, Idaho</p>
-
-                                            <p class="card-text"><b>Rates from -</b> $372 per night.</p>
-                                            <p class="card-text"><b>Accommodates - </b> 10 guests</p>
-                                            
-                                        </div>
-                                        <div class="col-md-2 pt-3">
-
-                                            <a href="#" class="btn">More Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseThree">
-                            Turgut's Perfect Stay
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingThree">
-                        <div class="accordion-body">
-                            <div class="card">
-                                <img src="images/property4.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-10">
-                                            <p class="card-text"><b>Location -</b> Forney, Texas</p>
-
-                                            <p class="card-text"><b>Rates from -</b> $220 per night.</p>
-                                            <p class="card-text"><b>Accommodates - </b> 4 guests</p>
-                                            
-                                        </div>
-                                        <div class="col-md-2 pt-3">
-
-                                            <a href="#" class="btn">More Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                        <button class="accordion-button btn collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
-                            aria-controls="panelsStayOpen-collapseFour">
-                            Killa Villa
-                        </button>
-                    </h2>
-                    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse"
-                        aria-labelledby="panelsStayOpen-headingFour">
-                        <div class="accordion-body">
-                            <div class="card">
-                                <img src="images/property5.jpg" class="card-img-top" alt="...">
-                                <div class="card-body">
-                                    <div class="row align-items-center">
-                                        <div class="col-md-10">
-                                            <p class="card-text"><b>Location -</b> Bay Hill Blvd, Orlando</p>
-
-                                            <p class="card-text"><b>Rates from -</b> $826 per night.</p>
-                                            <p class="card-text"><b>Accommodates - </b> 18 guests</p>
-                                            
-                                        </div>
-                                        <div class="col-md-2 pt-3">
-
-                                            <a href="#" class="btn">More Details</a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <br>
-
+            <!-- Main Body End-->
             <!-- Footer -->
             <footer class="page-footer font-small">
                 <hr class="horizontal-line">
@@ -258,90 +306,8 @@
             </footer>
             <!-- Footer -->
         </div>
-        <!-- Main Body End-->
+
     </div>
-
-    <!-- Main Body-->
-
-    <!-- <div class="container">
-        <div class="row row-cols-2">
-            <div class="col-md-6 card-grid">
-                <a href="#" class="card-link">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <i class="bi bi-file-plus-fill card-icon"></i>
-                                </div>
-                                <div class="col-md-8 card-text">
-                                    <h3>Become a host</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-6 card-grid">
-                <a href="#" class="card-link">
-                <div class="card shadow">
-                    <div class="card-body">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <i class="bi bi-building card-icon"></i>
-                                </div>
-                                <div class="col-md-8 card-text">
-                                    <h3>Reservations</h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </a>
-            </div>
-            <div class="col-md-6 card-grid">
-                <a href="#" class="card-link">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <i class="bi bi-search card-icon"></i>
-                                    </div>
-                                    <div class="col-md-8 card-text">
-                                        <h3>Properties</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="col-md-6 card-grid">
-                <a href="#" class="card-link">
-                    <div class="card shadow">
-                        <div class="card-body">
-                            <div class="container">
-                                <div class="row">
-                                    <div class="col-md-4">
-                                        <i class="bi bi-chat card-icon"></i>
-                                    </div>
-                                    <div class="col-md-8 card-text">
-                                        <h3>Reviews</h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div> -->
-
-    <!-- Main Body end-->
-
 
 
     <!-- include scripts here -->
